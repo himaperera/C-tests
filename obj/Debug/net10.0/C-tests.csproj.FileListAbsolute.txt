@@ -1,0 +1,15 @@
+/workspaces/C-tests/bin/Debug/net10.0/C-tests
+/workspaces/C-tests/bin/Debug/net10.0/C-tests.deps.json
+/workspaces/C-tests/bin/Debug/net10.0/C-tests.runtimeconfig.json
+/workspaces/C-tests/bin/Debug/net10.0/C-tests.dll
+/workspaces/C-tests/bin/Debug/net10.0/C-tests.pdb
+/workspaces/C-tests/obj/Debug/net10.0/C-tests.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/C-tests/obj/Debug/net10.0/C-tests.AssemblyInfoInputs.cache
+/workspaces/C-tests/obj/Debug/net10.0/C-tests.AssemblyInfo.cs
+/workspaces/C-tests/obj/Debug/net10.0/C-tests.csproj.CoreCompileInputs.cache
+/workspaces/C-tests/obj/Debug/net10.0/C-tests.sourcelink.json
+/workspaces/C-tests/obj/Debug/net10.0/C-tests.dll
+/workspaces/C-tests/obj/Debug/net10.0/refint/C-tests.dll
+/workspaces/C-tests/obj/Debug/net10.0/C-tests.pdb
+/workspaces/C-tests/obj/Debug/net10.0/C-tests.genruntimeconfig.cache
+/workspaces/C-tests/obj/Debug/net10.0/ref/C-tests.dll
