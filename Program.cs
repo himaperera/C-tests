@@ -21,5 +21,9 @@ long e=5698;
 long f=d+e;
 Console.WriteLine(f);
 
+int g = 2100000000;
+int h = 2100000000;
+long i=(long)g+(long)h; //also can used "checked" for never have to overflow 
+Console.WriteLine(i);
 
 
