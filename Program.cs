@@ -52,6 +52,9 @@ Console.WriteLine(mytest);
 if (x>100){
     Console.WriteLine("this number is grater than 100.");
 }
+else{
+    Console.WriteLine("this number is less than 100.");
+}
 
 
 
