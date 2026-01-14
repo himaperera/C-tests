@@ -90,6 +90,24 @@ int c1 = 6;
  Console.WriteLine(counterr);
  }
 
+ Console.WriteLine(".....................................................................");
+
+/*int counterz =25;
+ while(true)   - this is never gonna be end that end when it overflow (hit the Control+c)
+ {
+    counterz++;
+ Console.WriteLine(counterz);
+ }
+*/
+ int counteru =2;
+do
+ {
+    counteru++;
+ Console.WriteLine(counteru);
+ }
+  while(counteru<6);
+
+
 
  
 
