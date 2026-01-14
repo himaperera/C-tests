@@ -56,5 +56,45 @@ else{
     Console.WriteLine("this number is less than 100.");
 }
 
+int a1 = 4;
+int b1 = 5;
+int c1 = 6;
+
+ if ((a1 + b1 + c1 > 10) && (a1 == b1))   // bool condition 
+    {
+       Console.WriteLine("the answer is greater than 10");
+       Console.WriteLine("the a and b is equal");
+     }
+ else
+     {
+        Console.WriteLine("the answer is less than 10");
+        Console.WriteLine("the a and b is not equal");
+      }
+
+ // while loops 
+ int counter =0;
+ Console.WriteLine(counter);
+ counter = counter +1;
+ Console.WriteLine(counter);
+  counter = counter +1;
+ Console.WriteLine(counter);
+  counter++;
+ Console.WriteLine(counter);
+  counter++;
+ Console.WriteLine(counter);
+ Console.WriteLine(".....................................................................");
+ int counterr =2;
+ while(counterr<6)
+ {
+    counterr++;
+ Console.WriteLine(counterr);
+ }
+
+
+ 
+
+ 
+
+
 
 
