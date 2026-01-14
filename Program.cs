@@ -26,4 +26,32 @@ int h = 2100000000;
 long i=(long)g+(long)h; //also can used "checked" for never have to overflow 
 Console.WriteLine(i);
 
+int j =(int)35.2; // no matter what but need to have intiger 
+int k=(int)45.6;
+int l=j+k;
+Console.WriteLine(l);
+
+double m= 35.6;  //c# need to have exact data type to work 
+double o= 65.9;
+double p= m+o;
+Console.WriteLine(p);
+
+//float =65.2(this is error) but float =65.2F (suffix- ending when uses p that min prefix)
+
+double q= 64.3; //(natural type)
+float r= 78.5F;
+double s= q+r;
+Console.WriteLine(s);
+
+Decimal t= 64.3M; //(explicit type )
+Decimal z= 78.5M; //(M- for math)
+Decimal x= t+z;
+Console.WriteLine(s);
+bool mytest= x<50; // result should be true or false 
+Console.WriteLine(mytest);
+if (x>100){
+    Console.WriteLine("this number is grater than 100.");
+}
+
+
 
