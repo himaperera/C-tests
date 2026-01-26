@@ -107,6 +107,20 @@ do
  }
   while(counteru<6);
 
+//list of string 
+var names = new List<string>{"Supun","Himaya","Felipe"}; //made list that have to include 
+names.Add("Hiruni");  //if add some variable for arry can use this add method
+names.Remove("Himaya"); //if remove some variable from arry use this method 
+names.Add("Savi");
+names =[..names,"ramani"];
+foreach(var name in names[1..3])  //for name fil with names List and with [1..3] can what range actually want to print 
+{
+    Console.WriteLine($"Hello {name.ToUpper()}!"); // ToUpper =>used for  type in the name with Upper case 
+}
+ Console.WriteLine(names[2]);  // get out one element from the arry 
+ Console.WriteLine(names[0]);
+ Console.WriteLine(names[names.Count-1]);
+ Console.WriteLine(names[^2]);
 
 
  
