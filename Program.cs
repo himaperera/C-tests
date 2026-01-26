@@ -129,12 +129,14 @@ foreach (var fruit in fruits)
    Console.WriteLine($"these are the fruits i Like to eat {fruit.ToLower()}.");
 }
  
-var ages = new List<int>{50,45,12,64};
+var ages = new List<int>{50,45,12,75,64};
+Console.WriteLine($"I found 64 at my indexes {ages.IndexOf(64)}");// get index place in array
 ages.Sort(); // can see sorted array from this 
-foreach(var age in ages)
-{
-   Console.WriteLine($"ages {age}");
-}
+Console.WriteLine($"I found 64 at my indexes {ages.IndexOf(64)}"); //after sorting index places gonna be change
+// foreach(var age in ages)
+// {
+//    Console.WriteLine($"ages {age}");
+// }
 
  
 
