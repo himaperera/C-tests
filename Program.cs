@@ -122,8 +122,19 @@ foreach(var name in names[1..3])  //for name fil with names List and with [1..3]
  Console.WriteLine(names[names.Count-1]);
  Console.WriteLine(names[^2]);
 
-
+var fruits =new List<string>{"apple","orange","grapes"};
+fruits.Sort(); //this use for sort ones that alphbat sorting or number wise sortings 
+foreach (var fruit in fruits)
+{
+   Console.WriteLine($"these are the fruits i Like to eat {fruit.ToLower()}.");
+}
  
+var ages = new List<int>{50,45,12,64};
+ages.Sort(); // can see sorted array from this 
+foreach(var age in ages)
+{
+   Console.WriteLine($"ages {age}");
+}
 
  
 
