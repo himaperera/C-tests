@@ -23,8 +23,8 @@ Console.WriteLine(f);
 
 int g = 2100000000;
 int h = 2100000000;
-long i=(long)g+(long)h; //also can used "checked" for never have to overflow 
-Console.WriteLine(i);
+long v =(long)g+(long)h; //also can used "checked" for never have to overflow 
+Console.WriteLine(v);
 
 int j =(int)35.2; // no matter what but need to have intiger 
 int k=(int)45.6;
@@ -51,95 +51,117 @@ bool mytest= x<50; // result should be true or false
 Console.WriteLine(mytest);
 if (x>100){
     Console.WriteLine("this number is grater than 100.");
-}
-else{
-    Console.WriteLine("this number is less than 100.");
-}
+    }
+    else{
+        Console.WriteLine("this number is less than 100.");
+        }
 
-int a1 = 4;
-int b1 = 5;
-int c1 = 6;
+        int a1 = 4;
+        int b1 = 5;
+        int c1 = 6;
 
- if ((a1 + b1 + c1 > 10) && (a1 == b1))   // bool condition 
-    {
-       Console.WriteLine("the answer is greater than 10");
-       Console.WriteLine("the a and b is equal");
-     }
- else
-     {
-        Console.WriteLine("the answer is less than 10");
-        Console.WriteLine("the a and b is not equal");
-      }
+         if ((a1 + b1 + c1 > 10) && (a1 == b1))   // bool condition 
+             {
+                    Console.WriteLine("the answer is greater than 10");
+                           Console.WriteLine("the a and b is equal");
+                                }
+                                 else
+                                      {
+                                              Console.WriteLine("the answer is less than 10");
+                                                      Console.WriteLine("the a and b is not equal");
+                                                            }
 
- // while loops 
- int counter =0;
- Console.WriteLine(counter);
- counter = counter +1;
- Console.WriteLine(counter);
-  counter = counter +1;
- Console.WriteLine(counter);
-  counter++;
- Console.WriteLine(counter);
-  counter++;
- Console.WriteLine(counter);
- Console.WriteLine(".....................................................................");
- int counterr =2;
- while(counterr<6)
- {
-    counterr++;
- Console.WriteLine(counterr);
- }
+                                                             // while loops 
+                                                              int counter =0;
+                                                               Console.WriteLine(counter);
+                                                                counter = counter +1;
+                                                                 Console.WriteLine(counter);
+                                                                   counter = counter +1;
+                                                                    Console.WriteLine(counter);
+                                                                      counter++;
+                                                                       Console.WriteLine(counter);
+                                                                         counter++;
+                                                                          Console.WriteLine(counter);
+                                                                           Console.WriteLine(".....................................................................");
+                                                                            int counterr =2;
+                                                                             while(counterr<6)
+                                                                              {
+                                                                                  counterr++;
+                                                                                   Console.WriteLine(counterr);
+                                                                                    }
 
- Console.WriteLine(".....................................................................");
+                                                                                     Console.WriteLine(".....................................................................");
 
-/*int counterz =25;
- while(true)   - this is never gonna be end that end when it overflow (hit the Control+c)
- {
-    counterz++;
- Console.WriteLine(counterz);
- }
-*/
- int counteru =2;
-do
- {
-    counteru++;
- Console.WriteLine(counteru);
- }
-  while(counteru<6);
+                                                                                     /*int counterz =25;
+                                                                                      while(true)   - this is never gonna be end that end when it overflow (hit the Control+c)
+                                                                                       {
+                                                                                           counterz++;
+                                                                                            Console.WriteLine(counterz);
+                                                                                             }
+                                                                                             */
+                                                                                              int counteru =2;
+                                                                                              do
+                                                                                               {
+                                                                                                   counteru++;
+                                                                                                    Console.WriteLine(counteru);
+                                                                                                     }
+                                                                                                       while(counteru<6);
 
-//list of string 
-var names = new List<string>{"Supun","Himaya","Felipe"}; //made list that have to include 
-names.Add("Hiruni");  //if add some variable for arry can use this add method
-names.Remove("Himaya"); //if remove some variable from arry use this method 
-names.Add("Savi");
-names =[..names,"ramani"];
-foreach(var name in names[1..3])  //for name fil with names List and with [1..3] can what range actually want to print 
-{
-    Console.WriteLine($"Hello {name.ToUpper()}!"); // ToUpper =>used for  type in the name with Upper case 
-}
- Console.WriteLine(names[2]);  // get out one element from the arry 
- Console.WriteLine(names[0]);
- Console.WriteLine(names[names.Count-1]);
- Console.WriteLine(names[^2]);
+                                                                                                       //list of string 
+                                                                                                       var names = new List<string>{"Supun","Himaya","Felipe"}; //made list that have to include 
+                                                                                                       names.Add("Hiruni");  //if add some variable for arry can use this add method
+                                                                                                       names.Remove("Himaya"); //if remove some variable from arry use this method 
+                                                                                                       names.Add("Savi");
+                                                                                                       names =[..names,"ramani"];
+                                                                                                       foreach(var name in names[1..3])  //for name fil with names List and with [1..3] can what range actually want to print 
+                                                                                                       {
+                                                                                                           Console.WriteLine($"Hello {name.ToUpper()}!"); // ToUpper =>used for  type in the name with Upper case 
+                                                                                                           }
+                                                                                                            Console.WriteLine(names[2]);  // get out one element from the arry 
+                                                                                                             Console.WriteLine(names[0]);
+                                                                                                              Console.WriteLine(names[names.Count-1]);
+                                                                                                               Console.WriteLine(names[^2]);
 
-var fruits =new List<string>{"apple","orange","grapes"};
-fruits.Sort(); //this use for sort ones that alphbat sorting or number wise sortings 
-foreach (var fruit in fruits)
-{
-   Console.WriteLine($"these are the fruits i Like to eat {fruit.ToLower()}.");
-}
- 
-var ages = new List<int>{50,45,12,75,64};
-Console.WriteLine($"I found 64 at my indexes {ages.IndexOf(64)}");// get index place in array
-ages.Sort(); // can see sorted array from this 
-Console.WriteLine($"I found 64 at my indexes {ages.IndexOf(64)}"); //after sorting index places gonna be change
-// foreach(var age in ages)
-// {
-//    Console.WriteLine($"ages {age}");
-// }
+                                                                                                               var fruits =new List<string>{"apple","orange","grapes"};
+                                                                                                               fruits.Sort(); //this use for sort ones that alphbat sorting or number wise sortings 
+                                                                                                               foreach (var fruit in fruits)
+                                                                                                               {
+                                                                                                                  Console.WriteLine($"these are the fruits i Like to eat {fruit.ToLower()}.");
+                                                                                                                  }
+                                                                                                                   
+                                                                                                                   var ages = new List<int>{50,45,12,75,64};
+                                                                                                                   Console.WriteLine($"I found 64 at my indexes {ages.IndexOf(64)}");// get index place in array
+                                                                                                                   ages.Sort(); // can see sorted array from this 
+                                                                                                                   Console.WriteLine($"I found 64 at my indexes {ages.IndexOf(64)}"); //after sorting index places gonna be change
+                                                                                                                   // foreach(var age in ages)
+                                                                                                                   // {
+                                                                                                                   //    Console.WriteLine($"ages {age}");
+                                                                                                                   // }
 
- 
+                                                                                                                   //languadge inagratived query
+                                                                                                                   List<int> scores =[8,35,65,48,65,100,90,87];
+                                                                                                                   scores.Sort();
 
 
 
+                                                                                                                   //IEnumerable<int> scoreQuery =   // like sql part but its line about compilers 
+                                                                                                                     IEnumerable<string> scoreQuery = //(when use string)
+                                                                                                                    from score in scores //devided to single indexes from array
+                                                                                                                   where score > 80
+                                                                                                                orderby score descending // oder that highest to lowest
+                                                                                                                   //select score; // select from array
 
+                                                                                                                  /* var scoreQuery = scores.Where(s => s >80).
+                                                                                                                   OrderByDescending (s=>s);*/
+
+
+                                                                                                                    select $"The score is {score}";
+
+                                                                                                                    Console.WriteLine(scoreQuery.Count()); // if you want to get count 
+
+                                                                                                                   //foreach(int i in scoreQuery) 
+                                                                                                                   foreach(string i in scoreQuery)
+                                                                                                                   {
+                                                                                                                        Console.WriteLine(i +" ");
+                                                                                                                   }
+                                                                                                    
