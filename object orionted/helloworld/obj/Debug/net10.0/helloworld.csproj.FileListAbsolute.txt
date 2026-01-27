@@ -1,0 +1,15 @@
+/workspaces/C-tests/object orionted/helloworld/bin/Debug/net10.0/helloworld
+/workspaces/C-tests/object orionted/helloworld/bin/Debug/net10.0/helloworld.deps.json
+/workspaces/C-tests/object orionted/helloworld/bin/Debug/net10.0/helloworld.runtimeconfig.json
+/workspaces/C-tests/object orionted/helloworld/bin/Debug/net10.0/helloworld.dll
+/workspaces/C-tests/object orionted/helloworld/bin/Debug/net10.0/helloworld.pdb
+/workspaces/C-tests/object orionted/helloworld/obj/Debug/net10.0/helloworld.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/C-tests/object orionted/helloworld/obj/Debug/net10.0/helloworld.AssemblyInfoInputs.cache
+/workspaces/C-tests/object orionted/helloworld/obj/Debug/net10.0/helloworld.AssemblyInfo.cs
+/workspaces/C-tests/object orionted/helloworld/obj/Debug/net10.0/helloworld.csproj.CoreCompileInputs.cache
+/workspaces/C-tests/object orionted/helloworld/obj/Debug/net10.0/helloworld.sourcelink.json
+/workspaces/C-tests/object orionted/helloworld/obj/Debug/net10.0/helloworld.dll
+/workspaces/C-tests/object orionted/helloworld/obj/Debug/net10.0/refint/helloworld.dll
+/workspaces/C-tests/object orionted/helloworld/obj/Debug/net10.0/helloworld.pdb
+/workspaces/C-tests/object orionted/helloworld/obj/Debug/net10.0/helloworld.genruntimeconfig.cache
+/workspaces/C-tests/object orionted/helloworld/obj/Debug/net10.0/ref/helloworld.dll
