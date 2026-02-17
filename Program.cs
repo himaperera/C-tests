@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
 Console.WriteLine("Hello, World!");
 //trim and Replace 
 string firstFriend = "maria";
@@ -164,4 +165,9 @@ if (x>100){
                                                                                                                    {
                                                                                                                         Console.WriteLine(i +" ");
                                                                                                                    }
-                                                                                                    
+
+
+
+
+
+
